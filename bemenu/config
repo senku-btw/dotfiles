@@ -1,20 +1,24 @@
-# Global configuration profile for bemenu
+# ~/.config/bemenu/config
+# Paranoid Performance Profile: Single-line horizontal dmenu architecture
 backend = wayland
 ignorecase = true
-lines = 15
-line-height = 24
-font = Noto Sans 10
 
-# Color Scheme (Tokyo Night Inspired)
-title-background = #1a1b26
-title-foreground = #c0caf5
-filter-background = #1a1b26
-filter-foreground = #c0caf5
-normal-background = #1a1b26
-normal-foreground = #c0caf5
-highlight-background = #33467c
-highlight-foreground = #c0caf5
-selected-background = #33467c
-selected-foreground = #c0caf5
-scrollbar-background = #1a1b26
-scrollbar-foreground = #33467c
+# Pure Horizontal Mode: Setting lines to 0 enforces classic top-bar dmenu layout
+lines = 0
+
+# Visual Constraints (Adjust font size to keep it sharp and lightweight)
+font = Monospace 10
+line-height = 20
+
+# Suckless/Dmenu Minimalist Aesthetic Color Matrix
+title-background = #222222
+title-foreground = #bbbbbb
+filter-background = #222222
+filter-foreground = #bbbbbb
+normal-background = #222222
+normal-foreground = #bbbbbb
+highlight-background = #005577
+highlight-foreground = #eeeeee
+selected-background = #005577
+selected-foreground = #eeeeee
+scrollbar = none
