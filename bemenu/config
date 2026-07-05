@@ -1,0 +1,20 @@
+# Global configuration profile for bemenu
+backend = wayland
+ignorecase = true
+lines = 15
+line-height = 24
+font = Noto Sans 10
+
+# Color Scheme (Tokyo Night Inspired)
+title-background = #1a1b26
+title-foreground = #c0caf5
+filter-background = #1a1b26
+filter-foreground = #c0caf5
+normal-background = #1a1b26
+normal-foreground = #c0caf5
+highlight-background = #33467c
+highlight-foreground = #c0caf5
+selected-background = #33467c
+selected-foreground = #c0caf5
+scrollbar-background = #1a1b26
+scrollbar-foreground = #33467c
