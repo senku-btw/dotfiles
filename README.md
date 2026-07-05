@@ -1,34 +1,13 @@
-# dotfiles
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/yourusername/dotfiles/graphs/commit-activity)
 [![CI Pipeline](https://img.shields.io/badge/CI-Passing-brightgreen.svg)]()
 
-
-A robust, pristine, and enterprise-grade configuration repository for development environments. 
+# dotfiles
 
 This repository automates the provisioning, symlinking, and management of personalised system configurations, shell environments, and developer tools.
 
----
+> *“Simplicity is the ultimate sophistication.” — Leonardo da Vinci*
 
-## 🚀 Quick Start
-
-To provision a fresh machine with these dotfiles, execute the following command:
-
-```bash
-git clone --recursive https://github.com/senku-btw/dotfiles.git
-
-cd ~$HOME/.dotfiles
-
-```
-
-## 📦 System Architecture & Development Stack
-
-| Component | Technology | Description |
-|:-:	|:-:	|:-:	|
-| Terminal Emulator | Foot | GPU-accelerated terminal configurations |
-| Multiplexer	| tmux | Session persistence and window management |
-|   	|   	|   	|
+<br>
 
 ## 📂 Repository Structure
 
@@ -45,6 +24,7 @@ cd ~$HOME/.dotfiles
   │   └── .zshenv            # Environment variables
   └── LICENSE                # Repository license
 ```
+
 ## License
 
 This repository is open-source software licensed under the MIT License. See the LICENSE file for more details.
